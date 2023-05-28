@@ -1,6 +1,6 @@
 # Queen's Conquest
 
-In a game of chess, the queen is a powerful piece that can move any number of squares along a rank, file, or diagonal. In this problem, you are given an N x N chessboard (N <= 10^5) with a queen placed at the first square (first row and first column). The queen needs to visit K different squares and then return to its starting position.
+In a game of chess, the queen is a powerful piece that can move any number of squares along a row, column, or diagonal. In this problem, you are given an N x N chessboard (N <= 10^5) with a queen placed at the first square (first row and first column). The queen needs to visit K different squares and then return to its starting position.
 
 Your task is to determine the minimum number of moves required for the queen to visit all the specified squares and return to its starting position. Note that a queen is considered to have visited a square only if it lands on it.
 
