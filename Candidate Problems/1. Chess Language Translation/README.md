@@ -11,7 +11,9 @@ Given a source piece's language, a target piece's language, and a sentence in th
 # Input Format:
 
 The first line of input will contain the source piece's language as a string of 26 lowercase Latin letters.
+
 The second line of input will contain the target piece's language as a string of 26 lowercase Latin letters.
+
 The third line of input will contain the sentence in the source language. The sentence consists of lowercase Latin letters and spaces. The length of the sentence does not exceed 1000 characters.
 
 # Output Format:
