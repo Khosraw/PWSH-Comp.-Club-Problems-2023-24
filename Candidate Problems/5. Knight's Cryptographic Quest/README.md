@@ -1,15 +1,16 @@
 # Knight's Cryptographic Quest
 
-The Knights have been entrusted with a new cryptographic quest. They have been given a string $S$ of lowercase English letters of length $N$ ($N \leq 10^6$) and are tasked to perform $Q$ operations ($Q \leq 10^5$). Each operation is of one of the following types:
+The Knights have been entrusted with a new cryptographic quest. They are provided with a string $S$ composed of lowercase English letters. The length of the string, denoted as $N$ ($N \leq 10^6$), is a crucial parameter in this adventure. The Knights are also supposed to perform $Q$ operations ($Q \leq 10^5$). Each operation falls into one of the following categories:
 
-1. "UPDATE i c" - Update the $i$-th character of the string $S$ to be the character $c$.
-2. "GET j" - Get the value of the $j$-th character in the string $S$, assuming 'a' has a value of 1, 'b' of 2, and so on.
-Your task is to simulate the operations and produce the output of the GET operations.
+1. "UPDATE l r c" - Update the characters from the $l$-th to the $r$-th position (inclusive) of the string $S$ to be the character $c$.
+2. "GET l r" - Get the sum of the values of the characters in the string $S$ from the $l$-th to the $r$-th position (inclusive), considering 'a' has a value of 1, 'b' of 2, and so on.
+   
+Your challenge is to simulate these operations and compute the output of the GET operations.
 
 ## Input Format:
 
-The first line of input contains the string $S$. The second line contains the integer $Q$. The following $Q$ lines each contain an operation in the format described above.
+The first line of the input includes the string $S$. The second line consists of the integer $Q$. The next $Q$ lines each contain an operation in the format mentioned above.
 
 ## Output Format:
 
-For each "GET j" operation, output a single line containing the value of the $j$-th character.
+For each "GET l r" operation, output a single line containing the sum of the values of the characters from the $l$-th to the $r$-th position in string $S$.
