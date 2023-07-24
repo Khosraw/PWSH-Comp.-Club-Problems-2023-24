@@ -13,11 +13,11 @@ A single integer representing the number of layers of protection of the most pro
 ### Sample Input
 
 $5$ $5$  
-$0$ $0$  
-$1$ $2$  
-$2$ $1$  
-$4$ $2$  
-$4$ $4$
+$1$ $1$  
+$2$ $3$  
+$3$ $2$  
+$5$ $3$  
+$5$ $5$
 
 ### Sample Output
 
@@ -25,4 +25,4 @@ $3$
 
 ### Sample Case Explanation
 
-In the sample case, the knight at $\left(0, 0 \right)$ defends, and is defended by, the knights at $\left(1, 2 \right)$ and $\left(2, 1 \right)$; and the knight at $\left(2, 1 \right)$ defends, and is defended by, the knights at $\left(0, 0 \right)$ and $\left(4, 2 \right)$. Thus, the knight at $\left(1, 2 \right)$ has 3 layers of protection through the knights at $\left(0, 0 \right)$, $\left(2, 1 \right)$, and $\left(4, 2 \right)$. The knight at $\left(4, 2 \right)$ similarly has 3 layers of protection. The knight at $\left(4, 4 \right)$ is not defended by anybody and has 0 layers of protection. Therefore, the knight at $\left(1, 2 \right)$ and $\left(4, 2 \right)$ have the most protection, with 3 layers each.
+In the sample case, the knight at $\left(1, 1 \right)$ defends, and is defended by, the knights at $\left(2, 3 \right)$ and $\left(3, 2 \right)$; and the knight at $\left(3, 2 \right)$ defends, and is defended by, the knights at $\left(1, 1 \right)$ and $\left(5, 3 \right)$. Thus, the knight at $\left(2, 3 \right)$ has 3 layers of protection through the knights at $\left(1, 1 \right)$, $\left(3, 2 \right)$, and $\left(5, 3 \right)$. The knight at $\left(5, 3 \right)$ similarly has 3 layers of protection. The knight at $\left(5, 5 \right)$ is not defended by anybody and has 0 layers of protection. Therefore, the knight at $\left(2, 3 \right)$ and $\left(5, 3 \right)$ have the most protection, with 3 layers each.
