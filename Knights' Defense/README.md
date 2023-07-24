@@ -2,21 +2,21 @@
 
 The Knights are under attack! The Bishops, having successfully defended against the Knights' onslaught, are now marching towards the Knights' castle. In order to mount a defense, the Knights have arranged themselves on an $N \times N$ chessboard to protect each other in **layers**, where a knight defending another knight is one layer, and a knight defending a knight defending another knight is two layers of protection. The Knights have also arranged themselves in such a manner as to guarantee **at most one path** between every pair of Knights.  Now, the Knights need to know how many layers of protection they have against the Bishops.
 
-## Input Format
+### Input Format
 
 The first line of input will contain two integers: the size of the chessboard, $N$ $\left(0 \leq N \leq 10^4 \right)$, and the number of knights, $K$ $\left(0 \leq K \leq 10^4 \right)$. The next $K$ lines will each contain two integers, indicating the row $r$ $\left(0 \leq r < N \right)$ and column $c$ $\left(0 \leq c < N \right)$ of a knight.
 
-## Output Format
+### Output Format
 
 A single integer representing the number of layers of protection of the most protected knight.
 
 ### Sample Input
 
-$5$ $5$
-$0$ $0$
-$1$ $2$
-$2$ $1$
-$4$ $2$
+$5$ $5$\\
+$0$ $0$\\
+$1$ $2$\\
+$2$ $1$\\
+$4$ $2$\\
 $4$ $4$
 
 ### Sample Output
