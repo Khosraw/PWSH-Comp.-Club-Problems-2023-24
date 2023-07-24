@@ -1,6 +1,6 @@
 # Knights' Layer Defense Strategy
 
-The Knights are under attack! The Bishops, having successfully defended against the Knights' onslaught, are now marching towards the Knights' castle. In order to mount a defense, the Knights have arranged themselves on an $N \times N$ chessboard to protect each other in **layers**, where a knight defending another knight is one layer, and a knight defending a knight defending another knight is two layers of protection. The Knights have also arranged themselves in such a manner as to guarantee **at most one path** between every pair of Knights.  Now, the Knights need to know how many layers of protection they have against the Bishops.
+The Knights are under attack! The Bishops, having successfully defended against the Knights' onslaught, are now marching towards the Knights' castle. In order to mount a defense, the $K$ Knights have arranged themselves on an $N \times N$ chessboard to protect each other in **layers**, where a knight defending another knight is one layer, and a knight defending a knight defending another knight is two layers of protection. The Knights have also arranged themselves in such a manner as to guarantee **at most one path** between every pair of Knights.  Now, the Knights need to know how many layers of protection they have against the Bishops.
 
 ### Input Format
 
