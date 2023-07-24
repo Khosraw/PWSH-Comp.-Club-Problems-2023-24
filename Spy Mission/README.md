@@ -1,10 +1,10 @@
 # Spy Mission
 
-The Pawns and Rooks are on a spy mission deep behind enemy lines. The $P$ Pawns and $R$ Rooks are on an $N \times N$ chessboard, where the enemy King is sleeping. It is the Pawns and Rooks' turn to move, but they do not want to check the King and alert his guards. Determine the number of possible moves that will **not** result in a check. The King is guaranteed to not already be in check. Note that pawns are able to promote on the $N\textsuperscript{th}$ rank (row) and advance 2 spaces on the $2\textsuperscript{nd}$ rank.
+The Pawns and Rooks are on a spy mission deep behind enemy lines. The $P$ Pawns and $R$ Rooks are on an $N \times N$ chessboard, where the enemy King is sleeping. It is the Pawns and Rooks' turn to move, but they do not want to check the King and alert his guards. Determine the number of possible moves that will **not** result in a check. The King is guaranteed to not already be in check. Note that pawns are able to promote on the $N\textsuperscript{th}$ rank and advance 2 spaces on the $2\textsuperscript{nd}$ rank.
 
 ### Input Format
 
-The first line of input will contain three integers: the size of the chessboard, $N$ $\left(1 \leq N \leq 10^8 \right)$, the number of pawns, $P$ $\left(1 \leq P \leq 10^8 \right)$, and the number of rooks, $R$ $\left(1 \leq R \leq 10^8 \right)$. The second line will contain two integers, indicating the row $r$ $\left(1 \leq r \leq N \right)$ and column $c$ $\left(1 \leq c \leq N \right)$ of the enemy king. The next $P$ lines will each contain the position of a pawn, and the following $R$ lines after that will each contain the position of a rook, in the same format.
+The first line of input will contain three integers: the size of the chessboard, $N$ $\left(1 \leq N \leq 10^8 \right)$, the number of pawns, $P$ $\left(1 \leq P \leq 10^8 \right)$, and the number of rooks, $R$ $\left(1 \leq R \leq 10^8 \right)$. The second line will contain two integers, indicating the rank $r$ $\left(1 \leq r \leq N \right)$ and file $f$ $\left(1 \leq f \leq N \right)$ of the enemy king. The next $P$ lines will each contain the position of a pawn, and the following $R$ lines after that will each contain the position of a rook, in the same format.
 
 ### Output Format
 
