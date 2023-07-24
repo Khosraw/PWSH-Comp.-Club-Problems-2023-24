@@ -1,6 +1,6 @@
 # Spy Mission
 
-The Pawns and Rooks are on a spy mission deep behind enemy lines. The $P$ Pawns and $R$ Rooks are on an $N \times N$ chessboard, where the enemy King is sleeping. It is the Pawns and Rooks' turn to move, but they do not want to check the King and alert his guards. Determine the number of possible moves that will **not** result in a check. The King is guaranteed to not already be in check. Note that pawns are able to promote on the $N^{th}$ rank and advance 2 spaces on the $2^{nd}$ rank.
+The Pawns and Rooks are on a spy mission deep behind enemy lines. The $P$ Pawns and $R$ Rooks are on an $N \times N$ chessboard, where the enemy King is sleeping. It is the Pawns and Rooks' turn to move, but they do not want to check the King and alert his guards. Determine the number of possible moves that will **not** result in a check. The King is guaranteed to not already be in check. Note that pawns are able to promote on the $N$<sup>th</sup> rank and advance 2 spaces on the 2<sup>nd</sup> rank.
 
 ### Input Format
 
@@ -25,4 +25,4 @@ $20$
 
 ### Sample Case Explanation
 
-In the sample case, the enemy king is at $\left(5, 5 \right)$. The first pawn at $\left(2, 4 \right)$ can advance 1 or 2 spaces, but moving 2 spaces would result in a check, so only 1 move is possible. The second pawn at $\left(3, 6 \right)$ can advance 1 space, but that would result in a check, so no moves are possible. The first rook at $\left(1, 4 \right)$ is stopped from moving on the $4^{th}$ file by the pawn on $\left(2, 4 \right)$, but has 7 possible moves along the rank. The second rook at $\left(6, 6 \right)$ has 14 possible moves, but 2 result in a check. In total, there are 1 + 0 + 7 + 12 = 20 possible moves.
+In the sample case, the enemy king is at $\left(5, 5 \right)$. The first pawn at $\left(2, 4 \right)$ can advance 1 or 2 spaces, but moving 2 spaces would result in a check, so only 1 move is possible. The second pawn at $\left(3, 6 \right)$ can advance 1 space, but that would result in a check, so no moves are possible. The first rook at $\left(1, 4 \right)$ is stopped from moving on the 4<sup>th</sup> file by the pawn on $\left(2, 4 \right)$, but has 7 possible moves along the rank. The second rook at $\left(6, 6 \right)$ has 14 possible moves, but 2 result in a check. In total, there are 1 + 0 + 7 + 12 = 20 possible moves.
