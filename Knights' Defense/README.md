@@ -12,11 +12,11 @@ A single integer representing the number of layers of protection of the most pro
 
 ### Sample Input
 
-$5$ $5$\\
-$0$ $0$\\
-$1$ $2$\\
-$2$ $1$\\
-$4$ $2$\\
+$5$ $5$  
+$0$ $0$  
+$1$ $2$  
+$2$ $1$  
+$4$ $2$  
 $4$ $4$
 
 ### Sample Output
