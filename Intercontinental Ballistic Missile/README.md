@@ -4,7 +4,7 @@ After the opponent blunders a queen, you suddenly gain the ability to launch an 
 
 ### Input Format
 
-The first line of input will contain two integers: the size of the chessboard, $N$ $\left(1 \leq N \leq 10^4 \right)$ and the number of blast zones, $Q$ $\left(1 \leq Q \leq 10^8 \right)$. The next $N$ lines will each contain a string of length $N$, representing a rank of the chess board. The following $Q$ lines after that will each contain four integers, indicating the two corners of the rectangular blast zone: $x_1$, $y_1$, $x_2$, and $y_2$ $\left(1 \leq x_1, y_1, x_2, y_2 \leq N \right)$.
+The first line of input will contain two integers: the size of the chessboard, $N$ $\left(1 \leq N \leq 10^3 \right)$ and the number of blast zones, $Q$ $\left(1 \leq Q \leq 10^6 \right)$. The next $N$ lines will each contain a string of length $N$, representing a rank of the chess board. The following $Q$ lines after that will each contain four integers, indicating the two corners of the rectangular blast zone: $x_1$, $y_1$, $x_2$, and $y_2$ $\left(1 \leq x_1, y_1, x_2, y_2 \leq N \right)$.
 
 Piece Values: p = 1, n = 3, b = 3, r = 5, q = 9; P = -1, N = -3, B = -3, R = -5, Q = -9. "_" represents an empty square. There will be no other pieces on the board.
 
