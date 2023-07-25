@@ -4,7 +4,7 @@ The Pawns and Rooks are on a spy mission deep behind enemy lines. The $P$ Pawns 
 
 ### Input Format
 
-The first line of input will contain three integers: the size of the chessboard, $N$, the number of pawns, $P$, and the number of rooks, $R$ $\left(1 \leq N, P, R \leq 10^8 \right)$. The second line will contain two integers, indicating the rank $r$ and file $f$ $\left(1 \leq r, f \leq N \right)$ of the enemy king. The next $P$ lines will each contain the position of a pawn, and the following $R$ lines after that will each contain the position of a rook, in the same format.
+The first line of input will contain three integers: the size of the chessboard, $N$, the number of pawns, $P$, and the number of rooks, $R$ $\left(1 \leq N, P, R \leq 10^6 \right)$. The second line will contain two integers, indicating the rank $r$ and file $f$ $\left(1 \leq r, f \leq N \right)$ of the enemy king. The next $P$ lines will each contain the position of a pawn, and the following $R$ lines after that will each contain the position of a rook, in the same format.
 
 ### Output Format
 
