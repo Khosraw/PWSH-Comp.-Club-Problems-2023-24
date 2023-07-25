@@ -4,7 +4,7 @@ Rook-Man is a classic game where a rook must move from the top left to the botto
 
 ### Input Format
 
-The first line of input will contain two integers: the size of the chessboard, $N$ $\left(1 \leq N \leq 10^3 \right)$ and the number of ability uses, $K$ $\left(1 \leq K \leq 10^2 \right)$. The next $N$ lines will each contain a string of length $N$, representing a rank of the chess board.
+The first line of input will contain two integers: the size of the chessboard, $N$ $\left(1 \leq N \leq 10^2 \right)$ and the number of ability uses, $K$ $\left(1 \leq K \leq 10^2 \right)$. The next $N$ lines will each contain a string of length $N$, representing a rank of the chess board.
 
 Piece Values: p = 1, n = 3, b = 3, r = 5, q = 9. "_" represents an empty square. There will be no other pieces on the board.
 
