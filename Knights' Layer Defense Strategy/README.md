@@ -4,7 +4,7 @@ The Knights are under attack! The Bishops, having successfully defended against 
 
 ### Input Format
 
-The first line of input will contain two integers: the size of the chessboard, $N$, and the number of knights, $K$ $\left(1 \leq N, K \leq 10^4 \right)$. The next $K$ lines will each contain two integers, indicating the rank $r$ and file $f$ $\left(1 \leq r, f \leq N \right)$ of a knight.
+The first line of input will contain two integers: the size of the chessboard, $N$, and the number of knights, $K$ $\left(1 \leq N, K \leq 10^3 \right)$. The next $K$ lines will each contain two integers, indicating the rank $r$ and file $f$ $\left(1 \leq r, f \leq N \right)$ of a knight.
 
 ### Output Format
 
