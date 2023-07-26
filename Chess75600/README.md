@@ -22,4 +22,4 @@ $2$
 
 ### Sample Case Explanation
 
-In the sample case, the given starting position is invalid because the bishops are not on opposite colors and the king is not in between the rooks. This can be corrected with just 1 swap between the second rook from the left and either of the two bishops, which would cost 5 - 3 = 2.
+In the sample case, the given starting position is invalid because the bishops are not on opposite colors and the king is not in between the rooks. This can be corrected with just 1 swap between the second rook from the left and either of the two bishops, which would cost |r - b| = 5 - 3 = 2.
