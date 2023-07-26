@@ -1,6 +1,6 @@
 # Spy Mission
 
-The Pawns and Rooks are on a spy mission deep behind enemy lines. The $P$ Pawns and $R$ Rooks are on an $N \times N$ chessboard, where the enemy King is sleeping. It is the Pawns and Rooks' turn to move, but they do not want to check the King and alert his guards. Determine the number of possible moves that will **not** result in a check. The King is guaranteed to not already be in check. Note that pawns are able to promote on the $N$<sup>th</sup> rank and advance 2 spaces on the 2<sup>nd</sup> rank.
+The Pawns and Rooks are on a spy mission deep behind enemy lines. The $P$ Pawns and $R$ Rooks are on an $N \times N$ chessboard, where the enemy King is sleeping. It is the Pawns and Rooks' turn to move, but they do not want to check the King and alert his guards. Determine the number of possible moves that will **not** result in a check. The King is guaranteed to not already be in check. Note that pawns are able to promote on the $N$<sup>th</sup> rank and advance 2 spaces on the 2<sup>nd</sup> rank (as long as it is not also the $(N-1)$<sup>th</sup> rank).
 
 ### Input Format
 
