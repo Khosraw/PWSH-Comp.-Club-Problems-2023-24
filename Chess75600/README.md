@@ -14,7 +14,7 @@ A single integer representing the minimum cost required to convert the given Che
 
 ### Sample Input
 
-qrrnkbnqnb
+qrrnkbnqnb  
 qrbnkrnqnb
 
 ### Sample Output
