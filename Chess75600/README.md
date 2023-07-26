@@ -4,17 +4,18 @@ Chess960, also known as Fischer random chess, is a chess variant where the start
 
 ### Input Format
 
-The first line of input will contain a string of length 10, the starting Chess75600 position.
+The first line of input will contain a string of length 10, the starting Chess75600 position. The second line will contain another string of length 10, the desired Chess14000 position.
 
 Piece Values: n = 3, b = 3, r = 5, q = 9, k = 200. There will be exactly 3 n, 2 b, 2 r, 2 q, and 1 k in the position.
 
 ### Output Format
 
-A single integer representing the minimum cost required to convert the given Chess75600 position to a valid Chess14000 position.
+A single integer representing the minimum cost required to convert the given Chess75600 position to the given Chess14000 position.
 
 ### Sample Input
 
 qrrnkbnqnb
+qrbnkrnqnb
 
 ### Sample Output
 
@@ -22,4 +23,4 @@ $2$
 
 ### Sample Case Explanation
 
-In the sample case, the given starting position is invalid because the bishops are not on opposite colors and the king is not in between the rooks. This can be corrected with just 1 swap between the second rook from the left and either of the two bishops, which would cost |r - b| = 5 - 3 = 2.
+In the sample case, the given starting position can be converted to the Chess14000 position with just 1 swap between the second rook from the left and the leftmost bishop, which would cost |r - b| = 5 - 3 = 2.
