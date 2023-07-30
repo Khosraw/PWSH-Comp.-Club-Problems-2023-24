@@ -21,7 +21,7 @@ $6$ $6$
 
 ### Sample Output
 
-$20$
+$16$
 
 ### Sample Case Explanation
 
