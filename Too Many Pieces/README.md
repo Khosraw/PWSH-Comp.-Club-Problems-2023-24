@@ -23,15 +23,16 @@ The output should be $Q$ lines, each with single integer representing the total 
 
 ### Sample Input
 
-$7 2$
+$7$ $2$
 
 $QBBQNRB$
 
-$1 5$
+$1$ $5$
 
-$2 3$
+$2$ $3$
 
 ### Sample Output
 
 $27$
+
 $6$
