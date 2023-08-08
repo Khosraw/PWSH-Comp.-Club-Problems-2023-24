@@ -10,7 +10,7 @@ The Rooks now want you to guarantee that their new system is safe. However, in y
 
 ### Input Format
 
-A single line containing five space-separated integers: $a$, $b$, $g$, $g^a$, $g^b$.
+A single line containing five space-separated integers: $g$, $a$, $b$, $A$, $B$.
 
 ### Output Format
 
