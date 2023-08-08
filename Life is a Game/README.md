@@ -21,7 +21,7 @@ Then, $Q$ lines will follow, each containing 3 integers: $t$, $r$, and $c$, each
 
 ### Output Format
 
-$Q$ lines, with the $n$-th line being the word "DEAD" if the $n$th query was a dead cell and "ALIVE" if it was alive. 
+$Q$ lines, with the $n$-th line being the word "DEAD" if the $n$-th query was a dead cell and "ALIVE" if it was alive. 
 
 ### Constraints
 
