@@ -13,7 +13,7 @@ Here, a neighbor is considered to be any of the 8 cells directly adjacent to any
 
 The first line of input contains four integers: $M$, $N$, $B$, and $Q$ respectively. $M$ and $N$ are the width and height of the starting grid, respectively. 
 
-Then, $N$ lines will follow, representing the initial state of the grid, consisting of only ',' and '*' as characters. Each '.' will represent a dead cell and each '#' will represent an alive cell. 
+Then, $N$ lines will follow, representing the initial state of the grid, consisting of only '.' and '*' as characters. Each '.' will represent a dead cell and each '#' will represent an alive cell. 
 
 Then, $B$ lines will follow, each containing 3 integers: $t$, $r$, and $c$, each representing a bit flip occurring at time $t$ at row $r$ and column $c$. The top left corner of the grid is considered to be at row 0 and column 0. 
 
