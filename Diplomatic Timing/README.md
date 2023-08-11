@@ -13,3 +13,7 @@ Then, $P$ lines follow. Each line will begin with a string representing the name
 ### Output Format
 
 A single line containing a single integer, the number of the current turn. 
+
+### Constraints
+
+The game will not have ended by the end of the attack log. Player names are guaranteed to consist of only alphanumeric characters. 
