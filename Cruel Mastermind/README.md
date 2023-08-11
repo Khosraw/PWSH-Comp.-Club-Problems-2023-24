@@ -11,3 +11,5 @@ $N$ lines follow. Each line contains a 5-character string representing a guess, 
 ### Output Format
 
 A single line containing a guess that will allow the Guesser to determine the correct sequence. 
+
+**Author: Aaron Zhou**
