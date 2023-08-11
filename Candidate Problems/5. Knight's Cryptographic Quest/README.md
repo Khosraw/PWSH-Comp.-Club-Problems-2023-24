@@ -5,6 +5,12 @@ In a mythical kingdom, the Knights have embarked on a cryptographic quest. They 
 1. "TRANSFORM l r c" - Replace the characters from the $l$-th to the $r$-th position (inclusive) of the string $S$ with the character $c$.
 2. "INVOKE l r" - For the segment of the string $S$ from the $l$-th to the $r$-th position (inclusive), compute the Knight's Score: The product of the values of the characters squared, where 'a' corresponds to 1, 'b' to 2, and so on.
 
+OR
+
+Editors choice:
+1. "To TRANSFORM the energy of the cipher, choose your boundaries at positions $l$ and $r$. All letters from the left bound to the right, you must change them to the energy of character $c$."
+2. "Once transformed, to harness its true power, INVOKE the energy between positions $l$ and $r$. The Knight's Score shall then be revealed: It is the product of the square values of the characters, where 'a' is the essence of 1, 'b' embodies 2, and so forth."
+
 The Knights believe that finding the correct Knight's Score will lead them to the treasure. Your challenge is to help the Knights simulate these rituals and compute the Knight's Score for each "INVOKE l r" ritual.
 
 ## Input Format:
