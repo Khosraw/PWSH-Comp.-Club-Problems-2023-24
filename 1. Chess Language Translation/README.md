@@ -19,3 +19,5 @@ The third line of input will contain the sentence in the source language. The se
 # Output Format:
 
 The output should be a single line containing the translated sentence in the target language.
+
+**Author: Khosraw Azizi**
