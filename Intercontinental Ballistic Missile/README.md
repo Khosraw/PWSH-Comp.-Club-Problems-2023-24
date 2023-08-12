@@ -29,3 +29,5 @@ $0$
 ### Sample Case Explanation
 
 In the sample case, the $3 \times 3$ chessboard is given as input. The first query, which is the blast zone with corners at $\left(1, 1 \right)$ and $\left(1, 3 \right)$, has a net point value of b + n + r = 3 + 3 + 5 = 11. The second query has a net point value of all the pieces added together, which equals 0.
+
+**Author: Randy Guo**
