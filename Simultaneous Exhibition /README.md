@@ -1,4 +1,4 @@
-# Exhibition Match
+# Simultaneous Exhibition
 
 Top chess grandmaster Stock Fish is playing a simultaneous exhibition match: they are playing each of $N$ opponents at the same time.
 In fact, Mr. Fish is so good at chess that he knows exactly how many moves he needs to beat each opponent $M_1, M_2, ... M_N$, at which point they will immediately begin playing him again.
