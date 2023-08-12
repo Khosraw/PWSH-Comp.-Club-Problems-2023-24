@@ -1,3 +1,4 @@
+
 # Pro Scrabble I
 
 Pro Scrabble player Scrab Bull is trying to gain fame by playing at prestigious Scrabble tournaments; however, he cannot attend them all. Given $N$ scrabble tournaments beginning at time $A$ and ending at time $B$, each of which provide $1$ fame, determine the maximum amount of fame Scrab can gather.
