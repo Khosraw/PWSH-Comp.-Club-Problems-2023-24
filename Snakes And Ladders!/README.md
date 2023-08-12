@@ -1,4 +1,4 @@
-# Snakes and Ladders
+# Snakes and Ladders!
 
 In a twist on the famous worldwide classic board game Snakes and Ladders, you navigate up a board either 1 or 2 spaces at a time from 1-100, landing on snakes and ladders that may take you upwards and downwards.
 Given a board with $S$ snakes and $L$ ladders, determine the minimum possible number of moves it takes to reach any given square.
