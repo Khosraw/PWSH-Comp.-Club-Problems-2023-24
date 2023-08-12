@@ -26,3 +26,5 @@ $35$
 ### Sample Case Explanation
 
 In the sample case, the $3 \times 3$ chessboard is given as input. The optimal path Rook-Man can take is represented by the string RRDUDD, where R, D, and U mean right, down, and up respectively. This path would earn Rook-Man a score of b + n + r + q + r + q + p = 3 + 3 + 5 + 9 + 5 + 9 + 1 = 35.
+
+**Author: Randy Guo**
