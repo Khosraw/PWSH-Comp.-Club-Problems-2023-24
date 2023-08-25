@@ -33,3 +33,5 @@ $2$ $3$
 ### Sample Case Explanation
 
 The distances of each of the sensors to the provided treasure location are $2.080$, $-1.912$, $-1$, and $-2.080$, respectively. It can be seen that the sum of these are the desired distance, so this is one possible location. 
+
+**Author: Aaron Zhou**

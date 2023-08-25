@@ -4,7 +4,7 @@ The Knights are under attack! The Bishops, having successfully defended against 
 
 ### Input Format
 
-The first line of input will contain two integers: the size of the chessboard, $N$, and the number of knights, $K$ $\left(1 \leq N, K \leq 10^4 \right)$. The next $K$ lines will each contain two integers, indicating the rank $r$ and file $f$ $\left(1 \leq r, f \leq N \right)$ of a knight.
+The first line of input will contain two integers: the size of the chessboard, $N$, and the number of knights, $K$ $\left(1 \leq N, K \leq 10^3 \right)$. The next $K$ lines will each contain two integers, indicating the rank $r$ and file $f$ $\left(1 \leq r, f \leq N \right)$ of a knight.
 
 ### Output Format
 
@@ -26,3 +26,5 @@ $3$
 ### Sample Case Explanation
 
 In the sample case, the knight at $\left(1, 1 \right)$ defends, and is defended by, the knights at $\left(2, 3 \right)$ and $\left(3, 2 \right)$; and the knight at $\left(3, 2 \right)$ defends, and is defended by, the knights at $\left(1, 1 \right)$ and $\left(5, 3 \right)$. Thus, the knight at $\left(2, 3 \right)$ has 3 layers of protection through the knights at $\left(1, 1 \right)$, $\left(3, 2 \right)$, and $\left(5, 3 \right)$. The knight at $\left(5, 3 \right)$ similarly has 3 layers of protection. The knight at $\left(5, 5 \right)$ is not defended by anybody and has 0 layers of protection. Therefore, the knight at $\left(2, 3 \right)$ and $\left(5, 3 \right)$ have the most protection, with 3 layers each.
+
+**Author: Randy Guo**

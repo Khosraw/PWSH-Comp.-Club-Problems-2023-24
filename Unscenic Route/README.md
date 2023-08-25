@@ -28,3 +28,5 @@ y = 0.500 + 1.333x
 ### Sample Case Explanation
 
 In the sample case, plugging the x and y values into the formula yields the regression line y = 0.500 + 1.333x. The farthest point from this line is at $\left(5, 5 \right)$, which is at a distance of 1.300, so a minimum eyesight of 1.300 is required to see all the points.
+
+**Author: Randy Guo**

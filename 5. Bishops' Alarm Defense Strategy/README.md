@@ -27,3 +27,5 @@ The output should consist of two lines. The first line should represent the mini
 ### Sample Case Explanation: 
 
 For the minimum, the bishops can raise the alarm counter by 2 each time, causing the alarm counter to hit 8 when the knight with attack 6 is attacking. This leads to a total damage of 2 + 3 + 5 + 0 + 2 = 12. For the maximum, the bishops can raise the alarm counter by 1 each time, causing the alarm counter to never hit 8 and dealing 2 + 3 + 5 + 6 + 2 = 18 damage to the castle.
+
+**Author: Aaron Zhou**
