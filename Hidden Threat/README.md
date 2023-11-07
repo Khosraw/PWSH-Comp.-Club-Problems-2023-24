@@ -9,23 +9,23 @@ A single number N, followed by N lines representing the chessboard. Each of the 
 2 numbers on the same line, sepearted by the space, representing the location of the knight in coordinate location where the top left corner is (0, 0)
 
 ### Sample Input:
-5
-.K.K.
-K...K
-.....
-K...K
-.K.K.
+5  
+.K.K.  
+K...K  
+.....  
+K...K  
+.K.K.  
 
-### Sample Output:
-2 2
+### Sample Output:  
+2 2  
 
-### Sample Input:
-5
-K..K.
-.K...
-.....
-..K.K
-.....
+### Sample Input:  
+5  
+K..K.  
+.K...  
+.....  
+..K.K  
+.....  
 
-### Sample Output:
--1 -1
+### Sample Output:  
+-1 -1  
