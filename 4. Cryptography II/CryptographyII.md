@@ -27,3 +27,5 @@ $3$
 ### Sample Case Explanation
 
 In the sample case, the generated $N$ was 3. Thus, the first key generated was the remainder when $F_3 = 3$ was divided by 11, which resulted in an output of 3. Then, the second key generated was the remainder when $F_8 = 34$ was divided by 11, which resulted in an output of 1. As a result, the next key that would be generated would be the remainder when $F_{13} = 377$ was divided by 11, which resulted in an output of 3. 
+
+**By:** Aaron Zhou
