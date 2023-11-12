@@ -11,3 +11,5 @@ The first line of the input will contain two space-separated integers $N$ and $K
 ## Output Format:
 
 The output should be a single line containing two space-separated integers. These represent the row and column of the Queen who needs to traverse the shortest total distance to reach all the other Queens.
+
+**By:** Khosraw Azizi
