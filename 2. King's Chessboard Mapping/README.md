@@ -11,3 +11,5 @@ The first line of input will contain N, the number of test cases. The following 
 ## Output Format:
 
 The output should consist of N lines. Each line should contain the chess notation corresponding to the integer in the input.
+
+**By:** Khosraw Azizi
