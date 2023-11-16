@@ -1,6 +1,6 @@
 # Cryptography I
 
-In cryptography, one of the most important points of attack is the process of selecting a key for encryption, which for some algorithms requires selecting random numbers that are less than or equal to some prime $P$. Critically, knowing the value of any key should not be able to allow the end user to deduce the value of any future key. The Rooks have devised a key generating algorithm that they want you to test. They want to use the Fibonacci numbers to help generate new keys; these are defined by 
+The Rooks have devised a key generating algorithm that they want you to test. They want to use the Fibonacci numbers to help generate new keys; these are defined by 
 $$F_0 = 0$$
 $$F_1 = 1$$
 $$F_n = F_{n-1} + F_{n-2}.$$
