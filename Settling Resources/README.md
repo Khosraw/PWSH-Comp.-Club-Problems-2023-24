@@ -1,6 +1,6 @@
 # Settling Resources
 
-In the game *Settlers of Catan*, players fight over a common pool of 4
+In the game *Settlers of Catan*, players fight over a common pool of 5
 resources: sheep, wood, brick, wheat, and ore. One way players can do this
 is by rolling a die whose result will grant them a specific set of resources.
 
@@ -21,7 +21,7 @@ citizens to become the Mongols?
 
 ## Input Format
 
-The first line of input gives $N$ ($N \leq 10^4$), the number of faces on the
+The first line of input gives $N$ ($N \leq 2 \cdot 10^3$), the number of faces on the
 magical die. Each of the $N$ lines that follow contain 4 space separated
 integers, $s_i$, $w_i$, $o_i$, $k_i$, the amount of sheep, wood, and ore produced, respectively,
 followed by the number of knights sacrificed when the roll is made. ($s_i, 
