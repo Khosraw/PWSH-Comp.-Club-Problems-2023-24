@@ -45,11 +45,12 @@ applicable, from the 5 cards given.
 
 ### Sample Input
 
-To be added later. 
+AH 3H 7C QD 5S
+2C 6D KD 4S
 
 ### Sample Output
 
-To be added later. 
+6D
 
 ### Sample Case Explanation
 
