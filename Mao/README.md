@@ -46,6 +46,7 @@ applicable, from the 5 cards given.
 ### Sample Input
 
 AH 3H 7C QD 5S
+
 2C 6D KD 4S
 
 ### Sample Output
