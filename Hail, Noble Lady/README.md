@@ -1,7 +1,8 @@
-# ASCII Art 
+# Hail, Noble Lady
 
 Print out the following ASCII art of the queen chess piece!
- ```
+
+```
      _(_)_      
     _/___\_  
      /___\   
@@ -14,9 +15,12 @@ Print out the following ASCII art of the queen chess piece!
    (_______)   
   (_________)
   /_________\
-``` 
+```
 
-## Input Format:
+## Input Format
+
 N/A
-## Output Format:
+
+## Output Format
+
 Print the ASCII art of the queen chess piece. Trailing spaces will be ignored.

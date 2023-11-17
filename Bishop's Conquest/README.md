@@ -14,8 +14,4 @@ The second line of input will consist of two integers $a$ and $b$ $(1 \leq a, b 
 
 The output will consist of a single integer, representing the minimum number of moves required for the bishop to reach every cell of the same color as the starting cell.
 
-<<<<<<< HEAD
 **Author: Khosraw Azizi**
-=======
-**By:** Khosraw Azizi
->>>>>>> 7ab1f931b6d4aacb3d355d50a9d2c5174164e95c

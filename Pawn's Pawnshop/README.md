@@ -11,8 +11,4 @@ The first line of the input will contain two space-separated integers $N$ and $K
 
 The output should be a single line containing the maximum possible profit the pawn can make, assuming all items bought are sold.
 
-<<<<<<< HEAD
 **Author: Khosraw Azizi**
-=======
-**By:** Khosraw Azizi
->>>>>>> 7ab1f931b6d4aacb3d355d50a9d2c5174164e95c
