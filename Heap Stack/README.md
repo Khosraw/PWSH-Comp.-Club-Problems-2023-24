@@ -8,8 +8,8 @@ he follows the following rules:
 1. No board game can be rotated. 
 2. No board game with a larger width can be placed on top of a board
 game of smaller width.
-3. No board game can be placed on top of two other board games. Likewise,
-no board game can have two board games above it. 
+3. No board game can be placed on top of two other board games.
+4. No board game can have two or more board games above it. 
 
 Given the sizes of each of his board games and the width of the bookshelf,
 can you help Bob find the maximum number of games he can place on his shelf?
