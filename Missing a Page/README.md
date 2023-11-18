@@ -13,7 +13,7 @@ any player who takes more than this must return all extra cards taken
 back to the table. Hearing this,
 Cole is distraught; he wants you to find out how many points he could have
 lost. Given that $g$ and $b$ are uniformly distributed integers satisfying
-$$g \geq 0,\,b\geq 0,\,g+b\leq N,$$
+$$g \geq 0,\ b\geq 0,\ g+b\leq N,$$
 can you help Cole calculate the expected number of points he lost by not
 reading the last page, modulo $10^9 + 7$?
 
