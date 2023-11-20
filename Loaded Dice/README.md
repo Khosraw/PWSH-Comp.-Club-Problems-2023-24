@@ -34,6 +34,6 @@ A single integer denoting the maximum number of winnable games.
 
 ### Sample Case Explanation
 
-In the first game, three dice were rolled with a sum of 9. 9 is 3 less than the desired sum, 12, which means the first game can use either the 4 or 5 label to win (on the dice that rolled a 1 or 2, respectively). The second game resulted in 4 dice rolled with a sum of 11, which is 4 more than the desired sum of 7. The only way to win the second game is to use the 1 label, which does not interfere with the first game. As a result, both games are winnable. 
+In the first game, three dice were rolled with a sum of 9. 9 is 3 less than the desired sum, 12, which means the first game can use either the 4 or 5 label to win (on the die that rolled a 1 or 2, respectively). The second game resulted in 4 dice rolled with a sum of 11, which is 4 more than the desired sum of 7. The only way to win the second game is to use the 1 label, which does not interfere with the first game. As a result, both games are winnable. 
 
 **Author: Teagan Gao**
