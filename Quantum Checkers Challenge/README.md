@@ -4,7 +4,7 @@ In the Quantum Checkers Challenge, players are presented with an N x N checkers 
 
 A quantum move is defined as selecting any two rows or two columns of the board and performing one of two operations: 
 1. Swap Operation: Swap the contents of the selected rows or columns.
-2. Rotate Operation: Rotate the contents of the selected rows or columns 90 degrees clockwise or counterclockwise.
+2. Rotate Operation: Rotate the contents of the selected rows or columns 180 degrees clockwise or counterclockwise.
 
 The goal of the game is to reach a board state where all red pieces are in the top half of the board, and all black pieces are in the bottom half. The challenge is to determine the minimum number of quantum moves required to reach the goal state from a given initial board configuration.
 
