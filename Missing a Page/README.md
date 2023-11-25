@@ -31,18 +31,30 @@ space-separated integers, each defined analogously.
 ## Output Format
 
 A single line containing the expected number of points Cole lost by not
-reading the last page of the rulebook modulo $10^9 + 7$. 
+reading the last page of the rulebook modulo $10^9 + 7$. (This includes
+computing the modular inverse.)
 
 ### Sample Input
 
-To be added later.
+```
+2
+2 10 9
+2 11 8
+1 5
+```
 
 ### Sample Output
 
-To be added later. 
+```
+500000009
+```
 
 ### Sample Case Explanation
 
+Cole took the best possible hand of 2 cards, which is the red 10 and the green 11. The 
+only way for Cole to lose points is for the rules to say that a player can have at most 0
+green cards, which occurs with probability 1/2. Therefore, the expected number of points lost
+is $\frac{11}{2}$, which is congruent to $500000009$ modulo $10^9 + 7$. 
 
 
 **Author: Aaron Zhou**
