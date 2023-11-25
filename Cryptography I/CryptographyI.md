@@ -28,8 +28,4 @@ $4$
 
 In the sample case, the keys were generated with the consecutive Fibonacci numbers of 55 and 89, which leave remainders of 6 and 5, respectively, when divided by 7. The next Fibonacci number in the sequence would be 144, which leaves a remainder of 4 when divided by 7. 
 
-<<<<<<< HEAD
-**Author: Aaron Zhou**
-=======
 **By:** Aaron Zhou
->>>>>>> 7ab1f931b6d4aacb3d355d50a9d2c5174164e95c
