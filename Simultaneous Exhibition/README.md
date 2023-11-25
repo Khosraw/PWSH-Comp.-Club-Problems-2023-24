@@ -16,9 +16,9 @@ The next line contains $N$ integers, how many moves Mr. Fish needs to beat each 
 Print the minimum number of moves needed to win $G$ games.
 
 ### Sample Input
-$3 7$
+$3$ $7$
 
-$3 2 5$
+$3$ $2$ $5$
 
 ### Sample Output
 $8$
