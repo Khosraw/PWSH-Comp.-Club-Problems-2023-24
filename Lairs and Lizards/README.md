@@ -26,12 +26,27 @@ squares $i$ and $j$ is not overpowered.
 
 ### Sample Input
 
-To be added later.
+```
+6
+10 16 12
+15 8 6
+19 10 4
+5 6 14
+13 12 11
+8 20 17
+```
 
 ### Sample Output
 
-To be added later.
+```
+3
+```
 
 ### Sample Case Explanation
+
+It can be seen that putting tokens on squares 2 and 5 will lead to a character with
+statistics $P = 19$, $S = 12$, and $F = 14$, which is not overpowered. It can be
+shown that any other choice of token that causes a larger $|j - i|$ will be 
+overpowered. 
 
 **Author: Aaron Zhou**
