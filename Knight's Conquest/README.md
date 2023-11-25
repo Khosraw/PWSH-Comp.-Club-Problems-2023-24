@@ -26,6 +26,15 @@ The output will consist of a single integer, representing the minimum number of 
 ##Sample Output 1:
 IMPOSSIBLE
 
+#### Explanation
+
+- The chessboard is 4 rows by 5 columns.
+- "A" is Horsey's start square, and "B" is Jorsey's square.
+- "X" denotes unvisitable squares.
+- "." denotes visitable squares.
+
+In this layout, Horsey (A) is surrounded by visitable squares, but there's no sequence of knight moves that can bring Horsey to Jorsey (B) due to the placement of unvisitable squares (X). Therefore, it is impossible for Horsey to reach Jorsey.
+
 ##Sample Input 2:
 4 5
 . . X X X
@@ -35,5 +44,12 @@ X X . X X
 
 ##Sample Output 2:
 5
+
+#### Explanation
+
+- The chessboard is again 4 rows by 5 columns.
+- Horsey and Jorsey are positioned such that there is a path for the knight to move from A to B.
+
+In this layout, despite the presence of unvisitable squares, there is a sequence of moves that allows Horsey to reach Jorsey. The minimum number of moves is 5, which is the shortest path a knight can take under these conditions.
 
 **Author: Alex Zheng**
