@@ -16,6 +16,20 @@ A single line containing five space-separated integers: $g$, $a$, $b$, $A$, $B$.
 
 A single line containing the desired secret number. 
 
+### Sample Input
+```
+5 2 3 12 8
+```
+
+### Sample Output
+```
+12
+```
+
+### Sample Case Explanation
+In the sample case above, it can be shown that the secret prime chosen was $p = 13$, as $5^2 \equiv 12 \pmod{13}$ and
+$5^3 \equiv 8 \pmod{13}$. The secret number is then $12^3 \equiv 12 \pmod{13}$, as outputted. 
+
 ### Constraints
 
-It is always guaranteed that a unique $p$ exists. 
+It is always guaranteed that a unique $p$ exists. $a, b \leq 10^3$, $p \leq 10^9$. 
