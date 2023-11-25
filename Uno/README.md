@@ -15,7 +15,11 @@ Each player begins with $5$ cards. Assuming that the turn order always starts of
 The first line will contain an integer $N$ denoting how many games are played. The next $N$ lines contain strings, one per line, that represent the cards played during a game. 
 Regular cards are represented by either a “r”, “g”, “b”, or “y”. Plus $4$ cards are represented by a $4$, skip cards are represented by a $0$, and reverse cards are represented by a “v”. 
 
-### Output
+### Constraints
+
+The strings representing the games are guaranteed to only contain the aforementioned alphanumeric representations and are all valid moves. 
+
+### Output Format
 
 Output the name of the player with the most cards at the end of each game played. If there is a tie, output “Tie”. 
 
@@ -34,9 +38,5 @@ D
 For the first game, players Alice and Brian each play a card, bringing their card total down to $4$. Then, Casper plays a plus $4$, adding $4$ cards to Dorothy’s total and skipping her turn. 
 The four all play one card, reducing their respective card totals by $1$. Alice then plays a skip, skipping Brian’s turn, and then Casper plays a plus $4$, adding $4$ cards to Dorothy’s hand and skipping her turn. 
 Alice plays a reverse card, and the game ends. Tallying up their card totals yields $1$, $3$, $2$, and $12$ for Alice, Brian, Casper, and Dorothy respectively. Therefore, Dorothy is the player with the most cards. 
-
-### Constraints
-
-The strings representing the games are guaranteed to only contain the aforementioned alphanumeric representations and are all valid moves. 
 
 **By: Annie Li**
