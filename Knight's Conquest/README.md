@@ -16,14 +16,14 @@ B = Jorsey's (end) square
 
 The output will consist of a single integer, representing the minimum number of moves required for Horsey to reach Jorsey, or "IMPOSSIBLE" if he cannot do it.
 
-##Sample Input 1:
+## Sample Input 1:
 4 5
 . . X . X
 . X . . .
 . . A B .
 . X . . .
 
-##Sample Output 1:
+## Sample Output 1:
 IMPOSSIBLE
 
 #### Explanation
@@ -35,14 +35,14 @@ IMPOSSIBLE
 
 In this layout, Horsey (A) is surrounded by visitable squares, but there's no sequence of knight moves that can bring Horsey to Jorsey (B) due to the placement of unvisitable squares (X). Therefore, it is impossible for Horsey to reach Jorsey.
 
-##Sample Input 2:
+## Sample Input 2:
 4 5
 . . X X X
 X X . X X
 . A B . .
 . . . . .
 
-##Sample Output 2:
+## Sample Output 2:
 5
 
 #### Explanation
