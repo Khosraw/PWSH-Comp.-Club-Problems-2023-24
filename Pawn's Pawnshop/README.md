@@ -31,4 +31,20 @@ The output should be a single line containing the maximum possible profit the pa
 - The total profit is the sum of these values: $50 + $90 + $30 + $80 = $250.
 - The item valued at 120 is not bought as its value exceeds $100.
 
+#### Code
+
+```py
+def max_profit(N, item_values):
+    # Filter items that can be bought and calculate profit
+    profit = sum(value for value in item_values if value <= N)
+    return profit
+
+# Sample Test Case
+N = 100
+K = 5
+item_values = [50, 90, 120, 30, 80]
+
+print(max_profit(N, item_values))
+```
+
 **Author: Khosraw Azizi**
