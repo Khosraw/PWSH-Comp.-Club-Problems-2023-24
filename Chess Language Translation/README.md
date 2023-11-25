@@ -36,6 +36,8 @@ zit jxoea wkgvf ygb pxdhl gctk zit sqmn rgu
 
 #### Explanation
 
-The letter `a` is mapped to `q`, `b` is mapped to `w`, `c` is mapped to `e`, and so on.
+Translating "the quick brown fox jumps over the lazy dog" using the provided mapping gives "zit jxoea wkgvf ygb pxdhl gctk zit sqmn rgu". 
+Each letter in the sentence is replaced with its counterpart from the target language's alphabet. For example, 't' → 'z', 'h' → 'i', 'e' → 't', resulting in "zit" as the translation for "the", and so on for the rest of the sentence.
+Spaces between words are retained, ensuring the structure of the sentence remains intact.
 
 **By:** Khosraw Azizi
