@@ -37,13 +37,26 @@ for the value of $N$ provided.
 
 ### Sample Input
 
-To be added later.
+```
+2
+2
+3
+```
 
 ### Sample Output
 
-To be added later. 
+```
+5
+30
+```
 
 ### Sample Case Explanation
+
+In the first game, there are two ways to earn a candelicious combo: landing
+on square 1 then square 2, or landing on square 2 then square 3. In total,
+this earns $2 + 3 = 5$ points. In the second game, there are six ways to 
+earn a candelicious combo, with the sequences being 123, 135, 234, 246, 
+345, and 357. In total, this earns $3 + 5 + 4 + 6 + 5 + 7 = 30$ points. 
 
 
 
