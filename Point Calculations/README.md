@@ -17,6 +17,9 @@ wishes to play. Then, $N$ lines follow, each containing
 two space-separated integers, $a_i$ and $b_i$ respectively,
 detailing the parameters of one game. 
 
+## Constraints
+$N \leq 100$, $a_i, b_i \leq 1000$
+
 ## Output Format
 
 A single line containing the absolute value of
