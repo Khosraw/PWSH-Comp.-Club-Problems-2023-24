@@ -10,7 +10,7 @@ phone in the board game that he picked as his pivot. Can you help him find his p
 
 ## Input Format
 
-The first line of the input contains $N$, the number of board games in Aaron's collection. 
+The first line of the input contains $N$ $(N \leq 10^5)$, the number of board games in Aaron's collection. 
 The next $N$ lines that follow will each contain the name of a board game, with the $i$-th
 entry representing the $i$-th book from the left after one step of the Quicksort algorithm. 
 
