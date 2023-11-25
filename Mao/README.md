@@ -55,4 +55,8 @@ AH 3H 7C QD 5S
 
 ### Sample Case Explanation
 
+From the data given, it can be determined that the two rules that apply are the
+Difference Rule with $d = 2$ and the Suits Rule. Out of the cards in Alex's hand,
+the only playable card is the 6 of Diamonds following these rules. 
+
 **Author: Aaron Zhou**
