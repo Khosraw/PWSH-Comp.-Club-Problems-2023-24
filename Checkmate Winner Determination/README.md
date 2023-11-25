@@ -11,3 +11,12 @@ The input will consist of two lines, each containing a string representing the l
 ## Output Format:
 
 The output should be a single line containing either "White Wins!" if white has checkmated or "Black Wins!" if black has checkmated.
+
+## Sample Input:
+h5
+Qa1xe4#
+
+## Sample Output:
+Black Wins!
+
+**Author: Alex Zheng**
