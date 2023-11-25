@@ -14,6 +14,37 @@ Then, $P$ lines follow. Each line will begin with a string representing the name
 
 A single line containing a single integer, the number of the current turn. 
 
+### Sample Input
+
+```
+3
+Britain 20
+France 20
+Germany 20
+Britain 1 France 10
+Germany 2 Britain 5 France 10
+France 2 Britain 5 Germany 10
+Britain 1 Britain 5
+Britain 1 Germany 5
+Germany 1 Britain 5
+Britain 1 Germany 10
+```
+
+### Sample Output 
+
+```
+3
+```
+
+### Sample Case Explanation
+
+In the sample case above, each player starts with 20 health. Then, on turn 1, Britain takes a total of 10 damage,
+France takes a total of 20 damage, and Germany takes a total of 10 damage. France is knocked out of the game as a
+result. On turn 2, Britain and Germany attack each other for 5 damage, with Britain accidentally attacking themselves
+first and then changing their attack to Germany, leaving each with 5 health. Then, on turn 3, Britain has made a plan 
+to attack Germany for 10 damage, but Germany has not made an attack plan yet, so it is still turn 3. 
+
 ### Constraints
 
 The game will not have ended by the end of the attack log. Player names are guaranteed to consist of only alphanumeric characters. 
+$N \leq 20$, $P \leq 200$, $O \leq N$. All healths are less than $10^9$. 
