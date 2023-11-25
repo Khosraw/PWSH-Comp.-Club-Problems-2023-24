@@ -22,29 +22,43 @@ The output should be a single line containing the maximum possible profit the pa
 ### Sample Output
 
 ```
-250
+500
 ```
 
 #### Explanation
 
 - The pawn can buy items valued at 50, 90, 30, and 80 (since their values are less than or equal to 100).
-- The total profit is the sum of these values: $50 + $90 + $30 + $80 = $250.
+- The total profit is the sum of these values which are sold at twice their price: 2($50 + $90 + $30 + $80) = $500.
 - The item valued at 120 is not bought as its value exceeds $100.
 
 #### Code
 
-```py
-def max_profit(N, item_values):
-    # Filter items that can be bought and calculate profit
-    profit = sum(value for value in item_values if value <= N)
-    return profit
+```cpp
+#include <iostream>
+#include <vector>
 
-# Sample Test Case
-N = 100
-K = 5
-item_values = [50, 90, 120, 30, 80]
+int max_profit(int N, const std::vector<int>& item_values) {
+    int profit = 0;
+    for (int value : item_values) {
+        if (value <= N) {
+            profit += value;
+        }
+    }
+    return profit * 2;
+}
 
-print(max_profit(N, item_values))
+int main() {
+    int N, K;
+    std::cin >> N >> K;
+    std::vector<int> item_values(K);
+
+    for (int i = 0; i < K; ++i) {
+        std::cin >> item_values[i];
+    }
+
+    std::cout << max_profit(N, item_values) << std::endl;
+    return 0;
+}
 ```
 
 **Author: Khosraw Azizi**
