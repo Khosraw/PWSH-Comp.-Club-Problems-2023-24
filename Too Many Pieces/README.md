@@ -2,10 +2,10 @@
 
 Chesster Boarden owns a promotion chess shop, which sells various pieces for pawns to promote to, but he has a problem: he cannot keep inventory of all his pieces!
 
-Chesster has all of his $P$ pieces lined up in a row, numbered $1...P$. For convenience, they are denoted in standard chess notation:
+Chesster has all of his $P$ pieces lined up in a row, numbered $1\dots P$. For convenience, they are denoted in standard chess notation:
 $Q$ = queen worth 9, $R$ = rook worth 5, $B$ = bishop worth 3, $N$ = knight worth 3.
 
-Chesster's $Q$ customers buy in bulk: They will buy all the pieces in the range $a ... b$.
+Chesster's $Q$ customers buy in bulk: They will buy all the pieces in the range $a \dots b$.
 
 Your task is to determine how many pieces of each type the customer will buy, and calculate their total cost. Assume each purchase occurs independently, thus, each query is performed assuming no pieces have been bought yet.
 
