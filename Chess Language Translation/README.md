@@ -34,4 +34,8 @@ the quick brown fox jumps over the lazy dog
 zit jxoea wkgvf ygb pxdhl gctk zit sqmn rgu
 ```
 
+#### Explanation
+
+The letter `a` is mapped to `q`, `b` is mapped to `w`, `c` is mapped to `e`, and so on.
+
 **By:** Khosraw Azizi
