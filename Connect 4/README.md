@@ -8,7 +8,7 @@ X represents Tim
 O represents Sally
 ## Input Format
 
-The first line consists of an integer T, the number of test cases to follow. Each test case contains an integer N the number of lines to follow. Each line represents one row of the Connect Four board.
+The first line consists of an integer T, the number of test cases to follow. Each test case contains ofan integer N the number of lines to follow, followed by N lines. Each line represents one row of the Connect 4 board.
 
 ## Output Format
 
