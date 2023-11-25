@@ -17,7 +17,9 @@ The following game cases will each contain the space-separated integers $N_x$ an
 ### Constraints
 
 $1 \leq T \leq 100$
+
 $1 \leq N \leq 20$
+
 $N \leq K \leq 6N$
 
 ### Output Format
