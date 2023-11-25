@@ -27,4 +27,9 @@ The output should be a single line containing two space-separated integers. Thes
 4 4
 ```
 
+#### Explanation
+
+- The Queen at (4, 4) can reach the Queens at (1, 1) and (8, 8) each with a distance of 3 (moving diagonally), resulting in a total distance of 6.
+- The Queens at (1, 1) and (8, 8) would have to cover more distance to reach the other two Queens, so the Queen at (4, 4) is the optimal choice.
+
 **By:** Khosraw Azizi
