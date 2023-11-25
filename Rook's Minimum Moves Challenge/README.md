@@ -14,4 +14,21 @@ The first line of input will contain two space-separated integers, $N$ and $K$, 
 
 The output should be a single line containing the minimum number of moves required for the rook to visit all the specified squares and return to its starting position.
 
+### Sample Input
+
+```
+3
+1 3
+2 2
+2 3
+```
+
+### Sample Output
+```
+4
+```
+
+### Sample Case Explanation
+In this case, the optimal path can seen to be $(1, 1)$ to $(1, 3)$ to $(2, 3)$ to $(2, 2)$ to $(2, 1)$ back to $(1, 1)$. 
+
 **Author: Aaron Zhou**
