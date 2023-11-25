@@ -4,11 +4,31 @@ A pawn runs a pawnshop (no pun intended). The pawn accepts any items with a valu
 
 Given a list of $K$ items, with their respective values, your task is to determine the maximum profit the pawn can make. If any item is not sold, it does not contribute to the expenses or the profit - it is as if the item was never bought.
 
-## Input Format:
+## Input Format
+
 The first line of the input will contain two space-separated integers $N$ and $K$ $(1 \leq N, K \leq 10^3)$. The next line will contain $K$ space-separated integers representing the value of each item.
 
-## Output Format:
+## Output Format
 
 The output should be a single line containing the maximum possible profit the pawn can make, assuming all items bought are sold.
+
+### Sample Input
+
+```
+100 5
+50 90 120 30 80
+```
+
+### Sample Output
+
+```
+250
+```
+
+#### Explanation
+
+- The pawn can buy items valued at 50, 90, 30, and 80 (since their values are less than or equal to 100).
+- The total profit is the sum of these values: $50 + $90 + $30 + $80 = $250.
+- The item valued at 120 is not bought as its value exceeds $100.
 
 **Author: Khosraw Azizi**
