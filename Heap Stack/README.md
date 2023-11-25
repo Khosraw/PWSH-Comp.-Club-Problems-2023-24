@@ -24,10 +24,27 @@ Then, $N$ lines follow, each detailing the width of a single game.
 
 A single integer representing the number of games he can fit on the shelf.
 
+### Constraints
+$N \leq 10^5$, $w_i, W \leq 10^9$. 
+
 ### Sample Input
+
+```
+4 4
+1 2 3 4
+```
 
 ### Sample Output
 
+```
+3
+```
+
 ### Sample Case Explanation
+
+3 games can be placed on the shelf. The game of width 2 can be placed on top
+of the game of width 3, and the game of width 1 can be placed alone. This leads
+to 3 games total. It can be easily shown that it's is not possible to fit all 
+4 games on the shelf. 
 
 **Author: Aaron Zhou**
