@@ -18,13 +18,16 @@ The output should consist of $T$ lines, each containing a single integer: the mi
 ### Sample Input
 
 $2$
-\\$1$ $-1$ $1$ $-1$ $1$ $-1$
-\\$-1$ $-1$ $-1$ $-1$ $-1$ $-1$
+
+$1$ $-1$ $1$ $-1$ $1$ $-1$
+
+$-1$ $-1$ $-1$ $-1$ $-1$ $-1$
 
 ### Sample Output
 
 $-3$
-\\$-6$
+
+$-6$
 
 ### Sample Explanation
 
