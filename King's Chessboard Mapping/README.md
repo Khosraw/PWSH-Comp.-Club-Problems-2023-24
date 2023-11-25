@@ -23,7 +23,7 @@ The output should consist of N lines. Each line should contain the chess notatio
 
 ### Constraints
 
-$1 \leq N \leq 10^3$
+$1 \leq N \leq 10^4$
 
 ### Sample Output
 
