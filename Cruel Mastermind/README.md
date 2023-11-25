@@ -4,12 +4,32 @@ In the popular board game Mastermind, two players play: a Guesser and a Mastermi
 
 ### Input Format
 
-The first line will contain a single integer $N$, the number of guesses in the game so far.
+The first line will contain a single integer $N$ $(N \leq 10^3), the number of guesses in the game so far.
 
 $N$ lines follow. Each line contains a 5-character string representing a guess, followed by $A$ and $B$ in response to the guess.
 
 ### Output Format
 
 A single line containing a guess that will allow the Guesser to determine the correct sequence. 
+
+### Sample Input
+```
+5
+RRRRR 1 0
+YYYYY 4 0
+RYYYY 3 2
+YRYYY 3 2
+YYRYY 3 2
+```
+
+### Sample Output
+```
+YYYRY
+```
+
+### Sample Case Explanation
+After the 5 guesses, the only two possible sequences left are YYYRY and YYYYR. The guess provided
+disambiguates them by responding with "5 0" if the former sequence is correct, and "3 2" if the 
+latter sequence is correct. 
 
 **Author: Aaron Zhou**
