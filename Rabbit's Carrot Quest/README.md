@@ -22,7 +22,7 @@ Your task is to determine whether the rabbit can successfully navigate the grid 
 
 - Print `Yes` if the rabbit can eat all the carrots without hitting the walls. Otherwise, print `No`.
 
-### Sample Input 1
+#### Sample Input 1
 
 ```
 5
@@ -37,7 +37,7 @@ Your task is to determine whether the rabbit can successfully navigate the grid 
 Yes
 ```
 
-### Sample Input 2
+#### Sample Input 2
 
 ```
 5
