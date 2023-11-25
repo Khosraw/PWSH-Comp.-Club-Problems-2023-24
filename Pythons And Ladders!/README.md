@@ -15,16 +15,24 @@ $T$ lines, where "FAIR PLAY" is printed if the square $X$ is reachable and "CHEA
 ## Sample Input
 
 3 3
+
 2 95 L
+
 96 52 P
+
 55 99 L
+
 12 
+
 54
+
 77
 
 ## Sample Output
 CHEATER!
+
 FAIR PLAY
+
 CHEATER!
 
 ## Sample Explanation
