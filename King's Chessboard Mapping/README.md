@@ -21,6 +21,10 @@ The output should consist of N lines. Each line should contain the chess notatio
 64
 ```
 
+### Constraints
+
+$1 \leq N \leq 10^3$
+
 ### Sample Output
 
 ```
