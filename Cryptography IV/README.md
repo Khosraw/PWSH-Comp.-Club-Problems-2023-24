@@ -26,12 +26,17 @@ passing. First, to prevent any shenanigans with using too small
 numbers, they enforce that $x^e \geq M$ on the service. Additionally,
 to test your skills, they prevent you from accessing $M$, but they do
 tell you that $M = qr$, where $q$ and $r$ were the primes generated earlier.
+($e$ is kept constant.)
 Can you defeat the Rooks one final time and pass their authentication?
 
 ### Input Format
 
 The only line of input contains four space-separated integers: $P$, $e$, 
 $a$, and $b$. 
+
+### Constraints
+
+$P, a, b, p, q, r \leq 10^9$. $e < 10^5$. 
 
 ### Output Format
 
@@ -40,14 +45,19 @@ respectively.
 
 ### Sample Input
 
-To be added later.
+```
+5 3 5 5
+```
 
 ### Sample Output
 
-To be added later. 
+```
+3 12
+```
 
 ### Sample Case Explanation
-
+The encryption was generated with the primes $p = 2$, $q = 3$, and $r = 5$. Thus, $M = 15$.
+It can then be confirmed that $3^3 \equiv 12 \pmod{15}$. 
 
 
 **Author: Aaron Zhou**
