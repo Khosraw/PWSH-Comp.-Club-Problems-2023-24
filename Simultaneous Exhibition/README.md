@@ -8,8 +8,8 @@ Your task is to find the shortest amount of total moves Mr. Fish needs to win $G
 
 ## Input Format
 
-The first line contains positive integers $N, G$, the number of opponents and the number of games Stock needs to win.
-The next line contains $N$ integers, how many moves Mr. Fish needs to beat each opponent $M_1, M_2, ... M_N$.
+The first line contains positive integers $N \leq 10^4, G \leq 10^5$, the number of opponents and the number of games Stock needs to win.
+The next line contains $N$ integers, how many moves Mr. Fish needs to beat each opponent $M_1, M_2, ... M_N \leq 10^4$.
 
 ## Output Format
 
