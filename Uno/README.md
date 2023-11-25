@@ -12,7 +12,7 @@ Each player begins with $5$ cards. Assuming that the turn order always starts of
 
 ### Input Format
 
-The first line will contain an integer $N$ denoting how many games are played. The next $N$ lines contain strings, one per line, that represent the cards played during a game. 
+The first line will contain an integer $N$ $(N \leq 100)$ denoting how many games are played. The next $N$ lines contain strings, one per line, that represent the cards played during a game. 
 Regular cards are represented by either a “r”, “g”, “b”, or “y”. Plus $4$ cards are represented by a $4$, skip cards are represented by a $0$, and reverse cards are represented by a “v”. 
 
 ### Constraints
