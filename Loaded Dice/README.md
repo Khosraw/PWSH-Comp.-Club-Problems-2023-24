@@ -14,6 +14,12 @@ Given $T$ games, $N_1...N_T$ roll outcomes per game, and desired sums $K_1...K_T
 The first line of input will contain the integer $T$.
 The following game cases will each contain the space-separated integers $N_x$ and $K_x$ on the first line followed by $N$ space-separated integers on the second line, denoting the dice roll outcomes of that game.  
 
+### Constraints
+
+$1 \leq T \leq 100$
+$1 \leq N \leq 20$
+$N \leq K \leq 6N$
+
 ### Output Format
 
 A single integer denoting the maximum number of winnable games.
