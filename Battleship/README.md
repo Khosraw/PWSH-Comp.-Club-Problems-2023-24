@@ -23,8 +23,8 @@ A single integer, denoting the maximum number of guesses Brian must make with op
 - The ship has a length of more than 1.
 
 ### Sample Input
-7
 ```
+7
 ..O..O.
 ...O...
 ...XOO.
