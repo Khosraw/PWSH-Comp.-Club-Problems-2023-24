@@ -1,61 +1,69 @@
-import java.io.*;
 import java.util.*;
 
 public class Solution {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        PrintWriter out = new PrintWriter(System.out);
-
-        int N = Integer.parseInt(br.readLine()), C = Integer.parseInt(br.readLine()); 
-
-        List<int[]> carrots = new ArrayList<>();
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int N = scanner.nextInt(), C = scanner.nextInt();
+        int[][] carrots = new int[C][2];
         for (int i = 0; i < C; i++) {
-            String[] input = br.readLine().split(" ");
-            int x = Integer.parseInt(input[0]);
-            int y = Integer.parseInt(input[1]);
-            
-            carrots.add(new int[]{x, y});
+            carrots[i][0] = scanner.nextInt();
+            carrots[i][1] = scanner.nextInt();
         }
+        
+        Arrays.sort(carrots, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] a, int[] b) {
+                if (a[0] == b[0]) {
+                    return Integer.compare(a[1], b[1]);
+                }
+                return Integer.compare(a[0], b[0]);
+            }
+        });
 
-        Collections.sort(carrots, Comparator.comparingInt(a -> a[0] * N + a[1]));
-
-        out.println(canRabbitEatAllCarrots(N, carrots) ? "Yes" : "No");
-
-        out.flush();
-        out.close();
+        if (canEatAllCarrots(N, C, carrots)) System.out.println("Yes");
+        else System.out.println("No");
     }
 
-    private static boolean canRabbitEatAllCarrots(int N, List<int[]> carrots) {
-        ArrayList<Integer> fib = new ArrayList<>();
-        fib.add(1);
-        fib.add(1);
-        while (fib.get(fib.size() - 1) <= 2 * N) {
-            fib.add(fib.get(fib.size() - 1) + fib.get(fib.size() - 2));
-        }
+    private static boolean canEatAllCarrots(int N, int C, int[][] carrots) {
+        Set<Integer> prefixSums = generateFibonacciPrefixSums(2 * N);
 
-        int x = 0, y = 0, stepIndex = 0;
-
+        int x = 0, y = 0;
         for (int[] carrot : carrots) {
-            int carrotX = carrot[0];
-            int carrotY = carrot[1];
+            int rightSteps = carrot[1] - y; 
+            int downSteps = carrot[0] - x;
 
-            while ((x != carrotX || y != carrotY) && stepIndex < fib.size()) {
-                int step = fib.get(stepIndex);
+         if (rightSteps < 0 || downSteps < 0 || !prefixSums.contains(rightSteps) || !prefixSums.contains(downSteps))
+            return false;
 
-                if (x + step <= carrotX && x + step <= N - 1)
-                    x += step;
-                else if (y + step <= carrotY && y + step <= N - 1)
-                    y += step;
-                else
-                    return false;
-
-
-                stepIndex++;
-            }
-
-            stepIndex = 0;
+            x = carrot[0];
+            y = carrot[1];
+        }
+        return true;
+    }
+    
+    private static Set<Integer> generateFibonacciPrefixSums(int maxSum) {
+        Set<Integer> prefixSums = new HashSet<>();
+        List<Integer> fib = new ArrayList<>();
+        int nextFib;
+    
+        fib.add(1);
+        fib.add(1);
+        prefixSums.add(1); 
+        int currentSum = 2;
+    
+        while (currentSum <= maxSum) {
+            nextFib = fib.get(fib.size() - 1) + fib.get(fib.size() - 2);
+            fib.add(nextFib);
+            currentSum += nextFib;
+            prefixSums.add(currentSum);
+        }
+    
+        if (currentSum > maxSum) {
+            fib.remove(fib.size() - 1);
+            currentSum -= nextFib;
+            prefixSums.remove(currentSum);
         }
 
-        return true;
+        return prefixSums;
     }
 }
