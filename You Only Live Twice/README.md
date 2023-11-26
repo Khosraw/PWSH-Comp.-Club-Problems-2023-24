@@ -35,7 +35,7 @@ The integer number of rounds it will take for Jennie to become the leader.
 20000 0
 50000 0
 90000 2
-40000 1
+40000 2
 ```
 
 ### Sample Output
