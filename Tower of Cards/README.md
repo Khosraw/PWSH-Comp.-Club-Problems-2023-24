@@ -12,6 +12,7 @@ A single integer representing the max height George can make his tower. If it is
 
 ### Sample Input:
 18
+
 10 6 8 7 9 7 6 6 9 8 10 6 6 7 8 6 7 9
 
 ### Sample Output:
