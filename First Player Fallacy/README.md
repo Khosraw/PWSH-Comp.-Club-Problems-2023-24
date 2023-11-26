@@ -11,7 +11,7 @@ The next $N$ lines will contain the name of the player, followed by a space-sepa
 
 $1 \leq N \leq 2^{10}$
 
-$0 \leq number\,of\,traits \leq 2^{31}-1$
+$0 \leq number,of,traits \leq 2^{31}-1$
 
 A person will never be both tall and short, or both young and old.
 
