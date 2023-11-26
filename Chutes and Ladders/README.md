@@ -7,10 +7,22 @@ The next L lines will each contain a pair of numbers, the index of the starting 
 The next C lines will each contain a pair of numbers, the index of the starting space of a chute, and the index of the ending space of a chute. The index starts at 0.   
 The next line will contain Player A's rolls, each separated by a space. The number of rolls is not given.   
 The last line will contain Player B's rolls, each separated by a space. The number of rolls is not given  
-  
+Both players start on the 'Start' square, which is before the first space given. 
+
+
 Output:  
 A single character, either A or B to signify who won, followed by a number representing the number of turns it took.   
   
 Sample Input:  
 10 1 1
-0 1 0 0 2
+0 1 0 0 2 0 0 1 2 0
+1 7
+8 4
+3 4 1 1 6 4 5 1 3
+3 6 3 5 4 2 3 3 1
+
+Sample Output:
+B 4
+
+Explanation:
+On turn one, A and B both end up on index 2. On turn 2, A moves to index 6, while B lands on a chute on index 8 and goes back to index 4. On turn 3, A moves up one step to index 7 and B moves to index 7. On turn 4 A moves to index 8 and lands on a chute, ending up on index 4. B moves 5 spaces and finishes the game. 
