@@ -5,8 +5,6 @@ One layer of a tower of cards consists of N horizontal cards as the base. On top
 ## Input Format: 
 The first line of input will contain an integer N, the number of cards George has. The next line consists of N integers representing the heights of each card in centimeters.
 
-## Constraints: 
-
 ## Output Format:
 A single integer representing the max height George can make his tower. If it is not possible to make a tower the height will be 0.
 
@@ -16,8 +14,9 @@ A single integer representing the max height George can make his tower. If it is
 10 6 8 7 9 7 6 6 9 8 10 6 6 7 8 6 7 9
 
 ### Sample Output:
-16
+15
 
 ### Sample Case Explanation:
+The tallest tower that can be constructed has a base of 6 cards that are each 6 centimeters tall with a layer above of that constructed with 3 cards that are each 9 centimeters tall. Since the height of the card represents the height for that layer, the max height will be 15 centimeters. 
 
 **Author: Emily Lou**
