@@ -8,9 +8,9 @@ Output format:
 Output "Yay we made it in x time!" where x is the shortest time taken if the group is able to reach the end in time. Output "Game over..." if the group is not able to reach the end in time.    
 
 Constraints:  
-2 ≤ N ≤ 20
-0 ≤ T ≤ 10000
-0 ≤ I ≤ 100
+2 ≤ N ≤ 20  
+0 ≤ T ≤ 10000  
+0 ≤ I ≤ 100  
 
 Sample Input:  
 3 10 2  
