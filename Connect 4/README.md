@@ -6,34 +6,28 @@ A player has won Connect 4 when four of their pieces are in a row either vertica
 X represents Tim
 
 O represents Sally
-## Input Format
+### Input Format
 
-The first line consists of an integer T, the number of test cases to follow. Each test case contains ofan integer N the number of lines to follow, followed by N lines. Each line represents one row of the Connect 4 board.
+The first line contains an integer N the number of lines to follow, followed by N lines. Each line represents one row of the Connect 4 board.
 
-## Output Format
+### Output Format
 
-T lines containing “Tim Won” if Tim won, “Sally Won” if Sally won, or “Tie” if neither won.
+A single line containing “Tim Won” if Tim won, “Sally Won” if Sally won, or “Tie” if neither won.
 
 ### Sample Input
 ```
-2
 6
-X X O X X O X
-X O X X O X O
-O O X O O X X
+X X O X X O O
+X O X X O O X
+O O X O X X X
 X O O X O O O
-O X X O X O O
+O X X O O X O
 X O O X X O X
-5
-X O O O X O X
-X O X X O X O
-O X O O X O X
-O O X O X O X
-X O X O X O X
 ```
 ### Sample Output
-```
 Sally Won
-Tie
-```
+
+### Sample Case Explanation
+Four O's are in a row diagaonally, making Sally the winner
+
 **Author: Emily Lou**
