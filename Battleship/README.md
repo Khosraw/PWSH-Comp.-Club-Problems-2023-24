@@ -7,8 +7,8 @@ Both players then mark this play: the guesser on their blank grid, and the respo
 occupies have been marked, the ship is "sunken".
 
 Brian has almost won a game of Battleship, but there is still one ship remaining that he has not sunk. On his guessing grid, he has marked
-his hits as "X" and his misses as "O". Help Brian win by calculating the maximum number of guesses he needs to sink the ship if he plays optimally.
-For the purposes of this problem, ignore the hits that Brian already has on the other ships that have already been sunken.
+all of his hits on this ship as "X" and his misses as "O". Help Brian win by calculating the maximum number of guesses he needs to sink this last marked ship if he plays optimally.
+For the purposes of this problem, assume that all X's belong to the current ship and hits on already-sunken ships are ignored.
 
 ### Input Format
 The first line is an integer, $N$ ($1 \le N \le 1000$), denoting the size of the grid.
