@@ -1,6 +1,6 @@
 # Landing On Squares
 
-In a certain strange board game, dice with $N$ ($1 \le N \le 2 \times 10^5$) sides and irregular numbering are used. All dice used in the game are identical. Like in many games, two dice are rolled 
+In a certain strange board game, dice with $N$ ($1 \le N \le 2 \times 10^4$) sides and irregular numbering are used. All dice used in the game are identical. Like in many games, two dice are rolled 
 and their sum is the number of squares you move forward by. You have identified $T$ ($1 \le T \le 100$) detrimental squares that you do not want to land on. For each square, can you determine if 
 it is possible to land on it on your next turn? 
 
