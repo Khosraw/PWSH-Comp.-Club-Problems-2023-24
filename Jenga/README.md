@@ -1,6 +1,6 @@
 ### Jenga
 
-Jen is the best Jenga player in the world! However, she has just run into her toughest opponent yet, Ga. The two will never make a mistake unless no more pieces can be removed from the tower!
+Jen is the best Jenga player in the world! However, she has just run into her toughest opponent yet, Ga. The two will always take out the maximum number of bricks possible until no more pieces can be removed from the tower!
 
 The rules of their perfect Jenga game are as follows:
  - In each floor/row of the tower, either the middle of three blocks can be pulled out, or the two sides.
