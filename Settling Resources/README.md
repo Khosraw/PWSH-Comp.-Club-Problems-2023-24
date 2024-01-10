@@ -36,14 +36,22 @@ holding too many resources, instead print "Oh no, the Mongols!"
 
 ### Sample Input
 
-To be added later.
+```
+2
+1 1 2 2
+2 3 2 3
+7 0 6
+```
 
 ### Sample Output
 
-To be added later. 
+```
+11
+```
 
 ### Sample Case Explanation
 
-
+It can be confirmed the easiest way to acquire the desired resources is to roll the first face once and the second face 3 times, sacrificing
+11 knights in total. 
 
 **Author: Aaron Zhou**
