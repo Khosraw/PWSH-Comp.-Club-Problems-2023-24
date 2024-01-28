@@ -1,0 +1,76 @@
+Manually Added Test Case:
+Input:
+3D 6H 4C QD 9S
+10S 7C 10D KS
+Expected Output:
+10S
+
+Test Case 1:
+Input:
+QH 2C 2H 4H 4D
+5H QH 2D KH
+Expected Output:
+5H
+
+Test Case 2:
+Input:
+8D 7D 8C 4C 10H
+QS QH 5S 5C
+Expected Output:
+QS
+
+Test Case 3:
+Input:
+3H JH QC 4D 10C
+5C QC 10C 4C
+Expected Output:
+5C
+
+Test Case 4:
+Input:
+5C 9S 4C 10D QH
+6H 10C JS 5C
+Expected Output:
+6H
+
+Test Case 5:
+Input:
+7S 7C QC 9S AH
+9H 9H 9D QD
+Expected Output:
+9H
+
+Test Case 6:
+Input:
+QH 9S KH 3S 3H
+AS 6H 10C 4C
+Expected Output:
+AS
+
+Test Case 7:
+Input:
+6D 7S JS 6S KD
+QC 2H 6S 5H
+Expected Output:
+6S
+
+Test Case 8:
+Input:
+6S AD 8S 2C 3H
+QC JH 5S 2D
+Expected Output:
+JH
+
+Test Case 9:
+Input:
+10C 2D 5D 2S AS
+QD 3C 3S 2D
+Expected Output:
+3C
+
+Test Case 10:
+Input:
+AD 8D KH KC 9D
+10H 9H 4S QC
+Expected Output:
+10H
