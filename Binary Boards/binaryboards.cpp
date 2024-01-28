@@ -7,7 +7,7 @@ using namespace std;
 
 int main(){
     int x; cin >> x; cin.ignore();
-    vector<string> a; vector<string> b; vector<string> ans;
+    vector<string> a; vector<string> b; 
     map<string, string> dict { {"0", "A"}, {"1", "B"}, {"10", "C"}, {"11", "D"}, {"100", "E"}, {"101", "F"}, 
     {"110", "G"}, {"111", "H"}, {"1000", "I"}, {"1001", "J"}, {"1010", "K"}, {"1011", "L"}, {"1100", "M"},
     {"1101", "N"}, {"1110", "O"}, {"1111", "P"}, {"10000", "Q"}, {"10001", "R"}, {"10010", "S"}, {"10011", "T"},
@@ -18,7 +18,6 @@ int main(){
         a.push_back(e);
         cin >> e;
         b.push_back(e);
-        ans.push_back("pl");
     }
     
     for (int j = 0; j < x; j++){
