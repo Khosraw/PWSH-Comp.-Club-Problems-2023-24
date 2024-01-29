@@ -1,0 +1,40 @@
+Test Case 1
+Input:
+35
+10 1 8 2 7 9 4 2 8 9 2 4 5 9 8 2 4 8 6 1 9 9 2 10 1 8 8 6 9 1 8 8 8 9 1 
+
+Expected Output:
+21
+
+Test Case 2
+Input:
+23
+14 2 1 7 2 14 2 1 7 14 2 1 15 1 15 1 15 1 7 1 1 7 1
+
+Expected Output:
+15
+
+Test Case 3
+
+Input:
+24
+1 2 7 9 2 1 7 9 7 1 2 9 1 7 2 1 9 2 7 1 9 2 7 9 
+
+Expected Output:
+16
+
+Test Case 4
+Input:
+15
+2 6 3 8 7 3 5 10 8 7 2 5 10 6 1
+
+Expected Output:
+0
+
+Test Case 5
+Input:
+40
+2 5 2 4 8 2 4 8 10 5 12 2 8 7 4 2 5 12 4 5 2 4 2 8 10 12 2 4 2 8 4 2 8 2 4 2 4 2 10 4 
+
+Expected Output:
+26
