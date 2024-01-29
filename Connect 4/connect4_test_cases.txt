@@ -1,0 +1,99 @@
+Test Case 1
+Input:
+2
+6
+O X O X X O O
+X X O O O X X
+O O X O X O X
+X X O X O X O
+X X O O X X O
+X O O X O O X
+4
+O X O X X O O
+X X O O O X X
+O O X O X O X
+X X O X O X O
+
+Expected Output:
+Tim won
+Sally won
+
+Test Case 2
+Input:
+1
+5
+O X O X X O O
+X X O O X O X
+O O X X X O X
+X X O X O X O
+X O X O O X O
+
+Expected Output:
+Tie
+
+Test Case 3
+Input:
+3
+3
+O X O O X O O
+X X O O O O X
+O O X O X O X
+8
+O X O X X O O
+X X X O X X X
+O O X O X X X
+X X O X O O O
+X O O O X O X
+X O O O X O X
+O X X X O X O
+X O X O X X X
+5
+O X O X X O O
+X X O O O X X
+O O X X X X O
+X X O O O X O
+X O X O X O O
+
+Expected Output:
+Sally won
+Tim won
+Tim won
+
+Test Case 4
+Input:
+2
+3
+X O O X O O X
+O X O X X O O
+X O X O O O O
+7
+O X O X X O O
+X X O O O X X
+O O X X X O O
+X X O O X X O
+X O X O O X X
+X O O X X O O
+X X O X O X X
+
+Expected Output:
+Sally won
+Tim won
+
+Test Case 5
+Input:
+2
+4
+O X O X X X O
+X X O O O X X
+O O X O X O X
+X X O X O X O
+5
+O O O O X O O
+X O O O X X X
+O O X X O O X
+X X O X O X O
+X O X O X X O
+
+Expected Output:
+Tie 
+Sally won
