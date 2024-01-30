@@ -19,4 +19,6 @@ A single integer representing the max height George can make his tower. If it is
 ### Sample Case Explanation:
 The tallest tower that can be constructed has a base of 6 cards that are each 6 centimeters tall with a layer above of that constructed with 3 cards that are each 9 centimeters tall. Since the height of the card represents the height for that layer, the max height will be 15 centimeters. 
 
+![image](https://github.com/Khosraw/PWSH-Comp.-Club-Problems-2023-24/assets/106769681/d6245b1d-563b-49a3-a332-0a6adb9ee452)
+
 **Author: Emily Lou**
