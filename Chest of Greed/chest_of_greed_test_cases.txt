@@ -1,0 +1,49 @@
+Test Case 1:
+2
+Output:
+Catch that goblin!
+
+Test Case 2:
+73135
+Output:
+We're rich!!!
+
+Test Case 3:
+25557
+Output:
+Catch that goblin!
+
+Test Case 4:
+84544
+Output:
+We're rich!!!
+
+Test Case 5:
+10192
+Output:
+Catch that goblin!
+
+Test Case 6:
+48783
+Output:
+Catch that goblin!
+
+Test Case 7:
+148719
+Output:
+We're rich!!!
+
+Test Case 8:
+191825
+Output:
+We're rich!!!
+
+Test Case 9:
+201480
+Output:
+We're rich!!!
+
+Test Case 10:
+29883
+Output:
+Catch that goblin!
